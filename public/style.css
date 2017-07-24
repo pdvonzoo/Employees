@@ -1,0 +1,417 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+/* line 3, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 11, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 14, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+html {
+  font-size: 62.5%;
+  height: 100%; }
+
+/* line 18, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+body {
+  position: relative;
+  min-height: 100%; }
+
+/* line 22, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+ol, ul, li {
+  list-style: none; }
+
+/* line 25, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 28, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 32, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* END : css reset */
+/* Drag color */
+/* line 40, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+::-moz-selection {
+  background-color: #333;
+  color: #fff; }
+
+/* line 44, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+::selection {
+  background-color: #333;
+  color: #fff; }
+
+/* border-box */
+/* line 50, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 59, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+header {
+  width: 100%;
+  height: 101.5px;
+  background-color: #303642; }
+  /* line 63, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  header .topBox {
+    padding: 0 12%;
+    width: 100%;
+    height: 100%; }
+    /* line 67, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    header .topBox .top {
+      padding: 5px 0;
+      display: flex; }
+      /* line 70, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      header .topBox .top img {
+        margin-top: 0.2rem;
+        width: 2rem;
+        height: 2rem; }
+      /* line 75, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      header .topBox .top .top-select {
+        line-height: 30px;
+        font-size: 1rem; }
+        /* line 78, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        header .topBox .top .top-select select {
+          width: 100px;
+          height: 20px;
+          padding-left: 10px;
+          font-size: 1rem;
+          color: #9B9B9B;
+          border: 0px;
+          border-radius: 3px;
+          background: url("../image/arrow_down_1.svg") no-repeat 99% 50%;
+          background-color: white;
+          background-size: 10px 10px;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none; }
+      /* line 94, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      header .topBox .top .topFlex {
+        flex: 1;
+        padding-left: 6rem;
+        padding-top: 0.5rem; }
+        /* line 98, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        header .topBox .top .topFlex span {
+          padding-right: 1rem;
+          margin-top: 1rem;
+          color: #9B9B9B; }
+    /* line 105, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    header .topBox .logo {
+      padding-top: 5px;
+      padding-bottom: 40px;
+      font-size: 3.6rem;
+      position: relative; }
+      /* line 110, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      header .topBox .logo .logo_img {
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        margin-right: 1rem;
+        width: 3.5rem;
+        height: 3.5rem; }
+      /* line 118, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      header .topBox .logo .line_img {
+        position: absolute;
+        top: 0;
+        left: 4.3rem;
+        margin-top: 1rem;
+        display: inline;
+        width: 1rem;
+        height: 4rem; }
+      /* line 127, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      header .topBox .logo h1 {
+        position: absolute;
+        display: inline;
+        top: 1rem;
+        left: 6rem;
+        font-size: 3.4rem;
+        color: #dddddd; }
+
+/* line 139, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+main {
+  width: 900px;
+  margin: 75px auto; }
+  /* line 142, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  main .search {
+    display: flex;
+    position: relative;
+    z-index: -1; }
+    /* line 146, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main .search .searchFlex {
+      display: inline;
+      opacity: 1;
+      flex: 1; }
+      /* line 150, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      main .search .searchFlex img {
+        width: 17px; }
+    /* line 154, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main .search input {
+      position: absolute;
+      left: 20px;
+      top: 0px;
+      text-align: left;
+      border-radius: 0;
+      outline-style: none;
+      border: 0px solid #eeeeee;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none; }
+    /* line 166, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main .search input::placeholder {
+      font-size: 1.3rem;
+      color: #dddddd; }
+    /* line 171, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main .search form span {
+      padding: 0 0.7rem 0 3rem;
+      color: #dddddd; }
+    /* line 175, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main .search form select {
+      width: 50px;
+      height: 20px;
+      padding-left: 10px;
+      font-size: 1rem;
+      color: black;
+      border: 0px;
+      border-radius: 3px;
+      background-color: white;
+      background: url("../image/arrow_down.svg") no-repeat 99% 50%;
+      background-size: 10px 10px;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none; }
+  /* line 193, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  main .info {
+    margin-top: 20px; }
+    /* line 195, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main .info table {
+      width: 100%;
+      cellpadding: 10px; }
+      /* line 198, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      main .info table tr {
+        border-bottom: 1px solid #eeeeee; }
+        /* line 200, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        main .info table tr th {
+          text-align: left;
+          padding: 15px 0;
+          font-size: 1.2rem;
+          color: #BBBBBB; }
+        /* line 206, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        main .info table tr .tr_profile {
+          position: relative;
+          vertical-align: middle;
+          width: 24rem;
+          z-index: -1; }
+          /* line 211, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+          main .info table tr .tr_profile img {
+            width: 3rem; }
+          /* line 214, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+          main .info table tr .tr_profile span {
+            position: absolute;
+            top: 2.4rem;
+            left: 4rem; }
+        /* line 221, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        main .info table tr .tr_dot img {
+          width: 0.85rem;
+          margin-right: 0.7rem; }
+        /* line 224, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        main .info table tr .tr_icon {
+          text-align: right; }
+          /* line 226, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+          main .info table tr .tr_icon div {
+            display: inline; }
+        /* line 230, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+        main .info table tr td {
+          vertical-align: middle;
+          padding: 16px 0;
+          font-size: 1.4rem; }
+          /* line 235, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+          main .info table tr td .read img {
+            width: 1.2rem; }
+          /* line 240, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+          main .info table tr td .pen {
+            margin: 0 1.6rem 0 2.1rem; }
+            /* line 242, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+            main .info table tr td .pen img {
+              width: 1.7rem; }
+          /* line 247, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+          main .info table tr td .delete img {
+            width: 1.8rem; }
+  /* line 256, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  main nav {
+    padding-top: 33px;
+    text-align: center; }
+    /* line 259, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main nav .move {
+      font-size: 1.3rem; }
+    /* line 262, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    main nav .go {
+      padding: 0 12px;
+      font-size: 1.2rem; }
+      /* line 265, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      main nav .go input {
+        display: none; }
+      /* line 268, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      main nav .go label {
+        padding: 0 3px; }
+
+/* line 276, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+.modal-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 253, 0.75);
+  visibility: hidden;
+  opacity: 1;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  /* line 288, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  .modal-wrapper .modal {
+    border: 1px solid #DDDDDD;
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: 50% 0 0 -200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 9999; }
+    /* line 303, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    .modal-wrapper .modal .head {
+      width: 100%;
+      height: 0px;
+      padding: 1em 5%;
+      overflow: hidden;
+      background: #303642; }
+      /* line 309, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .modal .head .btn-close {
+        width: 60px;
+        height: 60px;
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 8px;
+        padding: 5px; }
+      /* line 318, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .modal .head .btn-close::before, .modal-wrapper .modal .head .btn-close::after {
+        content: '';
+        width: 32px;
+        height: 6px;
+        display: block;
+        background: #fff; }
+      /* line 325, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .modal .head .btn-close::before {
+        margin-top: 12px;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg); }
+      /* line 332, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .modal .head .btn-close::after {
+        margin-top: -6px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg); }
+  /* line 341, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  .modal-wrapper .content {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    position: relative; }
+    /* line 346, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    .modal-wrapper .content h2 {
+      text-align: center;
+      width: 100%;
+      margin: 24px 0 54px 0;
+      font-size: 22px; }
+    /* line 352, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    .modal-wrapper .content .namewrapper {
+      margin-left: 40px; }
+      /* line 354, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .content .namewrapper input {
+        margin-left: 20px;
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid #BBBBBB; }
+    /* line 362, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    .modal-wrapper .content .mailwrapper {
+      margin: 10px 0 20px 40px; }
+      /* line 364, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .content .mailwrapper input {
+        margin-left: 13px;
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid #BBBBBB; }
+    /* line 371, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    .modal-wrapper .content .status_form {
+      margin-left: 40px; }
+      /* line 373, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .content .status_form h3 {
+        display: inline; }
+      /* line 376, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+      .modal-wrapper .content .status_form .status {
+        margin-left: 13px; }
+    /* line 380, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+    .modal-wrapper .content .submit {
+      position: absolute;
+      top: 252px;
+      left: 233px;
+      padding: 10px 6px 8px 6px;
+      border: 1px solid #eeeeee;
+      background-color: cadetblue;
+      color: #DFDFDF;
+      cursor: pointer; }
+
+/* line 393, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible; }
+
+/* line 397, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+.modal-wrapper.open .modal {
+  margin-top: -200px;
+  opacity: 1; }
+
+/* line 401, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+.page-wrapper {
+  width: 100%;
+  height: 100%; }
+  /* line 404, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+  .page-wrapper .plus_icon {
+    width: 11rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer; }
+
+/* line 413, /Users/hiwilco/Desktop/works/publishing/first_re/public/style.scss */
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
+
+/*# sourceMappingURL=style.css.map */
